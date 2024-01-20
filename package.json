@@ -1,0 +1,19 @@
+{
+  "name": "javascript-09-final",
+  "version": "1.0.0",
+  "description": "",
+  "source": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html -p3000",
+    "build": "parcel watch src/index.html",
+    "start-server": "json-server --watch db.json -p4040"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "^4.7.8",
+    "json-server": "^1.0.0-alpha.21",
+    "parcel": "^2.11.0"
+  }
+}
